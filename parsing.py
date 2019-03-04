@@ -66,6 +66,8 @@ while(rl):
 		h_list.append({'id1': i, 'id2': None, 'fmt': line[0], 'nb': line[1], 'tags': line[2:]})
 	rl = fd.readline()
 	i += 1
+	print("LOL")
+print("LOL2")
 create_v_2_x()
 end_list = h_list.copy()
 end_list.extend(x_list)
